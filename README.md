@@ -26,13 +26,13 @@
 
 <div style="font-size:16px">
 
-Trata-se de um gerador de senhas aleatórias, com seu número de caracteres podendo ser variado entre 3 e 12.
-
-Existem diversas vantagens em utilizar uma biblioteca externa. Além de economizarmos tempo e linha código, bibliotecas populares recebem constantes atualizações e bugfixes, deixando nosso código mais seguro e performático.
+Trata-se de um gerador de senhas aleatórias, com o número de caracteres gerados podendo ser variado entre 3 e 12.
 
 Nesse projeto foi utilizada a biblioteca `nanoid`, que é extremamente leve e consegue gerar uma sequência de caracteres aleatórios.
 
- 👀 Outras curiosidades, como a probabilidade de se advinhar as senhas, podem ser conferida nesse <a href="https://zelark.github.io/nano-id-cc/">link</a>.
+Existem diversas vantagens em utilizar uma biblioteca externa. Além de economizarmos tempo e linha código, bibliotecas populares recebem constantes atualizações e bugfixes, deixando nosso código mais seguro e performático.
+
+ 👀 Outras curiosidades, como a probabilidade de se advinhar as senhas, podem ser conferidas nesse <a href="https://zelark.github.io/nano-id-cc/">link</a>.
 </div>
 
 <br>
