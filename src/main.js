@@ -4,9 +4,11 @@ import './style.css';
 const passwordBtnEl = document.querySelector('.bt1');
 const displayPasswordEl = document.querySelector('span');
 const copyBtn = document.querySelector('.bt2');
+const tamanho = document.querySelector('.size');
 
 passwordBtnEl.addEventListener('click', () => {
-  const randomPassword = nanoid();
+  const selectorValue = tamanho.value;
+  const randomPassword = nanoid(selectorValue);
   displayPasswordEl.innerHTML = randomPassword;
 });
 
